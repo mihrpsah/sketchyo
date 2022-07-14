@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    border: 10px solid red;
+    height: 800px;
+    background: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: slateblue;
+    width: 800px;
+    height: 800px;
+    border: 3px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box div{
+    width: 50px;
+    height: 50px;
+}
+
+.box div:hover{
+    background-color: red;
+}
