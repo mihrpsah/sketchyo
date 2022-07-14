@@ -1,5 +1,5 @@
 for(let i=0; i<256; i++){
-    console.log("JS Triggered")
+    console.log("JS Triggered")                 
     let element = document.createElement("div");
     element.setAttribute("class", "pixel")
     let box = document.getElementById("box");
