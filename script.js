@@ -19,11 +19,16 @@ function generateGrid(size){
     }
     
     const pixels = document.querySelectorAll('.pixel')
+    console.log("const pixels defined")
     
     pixels.forEach(pixel => {
         pixel.addEventListener("mouseover", function(){
             console.log("Event Selector Working")
-            pixel.setAttribute('style', 'background-color: yellow;');
+           // pixel.setAttribute('style', 'background-color: yellow;');
+            pixel.style.backgroundColor = "yellow";
+            let sideLength = 800/size;
+            pixel.style.width = sideLength + "px";
+            pixel.style.height = sideLength + "px";
         })
     })
     return;
