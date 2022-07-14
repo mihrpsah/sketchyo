@@ -1,8 +1,5 @@
 
-/* Things to be done:-
-   >A prompt to take size.
-   >Make a function for creating box, give grid size as argument.
-*/
+
 
 let gridSize = parseInt(prompt("Enter desired grid size (2-100)", "16"));
 
